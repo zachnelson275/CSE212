@@ -1,0 +1,14 @@
+/Users/zachnelson/Documents/2025 Winter/CSE212/bin/Debug/net8.0/CSE212
+/Users/zachnelson/Documents/2025 Winter/CSE212/bin/Debug/net8.0/CSE212.deps.json
+/Users/zachnelson/Documents/2025 Winter/CSE212/bin/Debug/net8.0/CSE212.runtimeconfig.json
+/Users/zachnelson/Documents/2025 Winter/CSE212/bin/Debug/net8.0/CSE212.dll
+/Users/zachnelson/Documents/2025 Winter/CSE212/bin/Debug/net8.0/CSE212.pdb
+/Users/zachnelson/Documents/2025 Winter/CSE212/obj/Debug/net8.0/CSE212.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zachnelson/Documents/2025 Winter/CSE212/obj/Debug/net8.0/CSE212.AssemblyInfoInputs.cache
+/Users/zachnelson/Documents/2025 Winter/CSE212/obj/Debug/net8.0/CSE212.AssemblyInfo.cs
+/Users/zachnelson/Documents/2025 Winter/CSE212/obj/Debug/net8.0/CSE212.csproj.CoreCompileInputs.cache
+/Users/zachnelson/Documents/2025 Winter/CSE212/obj/Debug/net8.0/CSE212.dll
+/Users/zachnelson/Documents/2025 Winter/CSE212/obj/Debug/net8.0/refint/CSE212.dll
+/Users/zachnelson/Documents/2025 Winter/CSE212/obj/Debug/net8.0/CSE212.pdb
+/Users/zachnelson/Documents/2025 Winter/CSE212/obj/Debug/net8.0/CSE212.genruntimeconfig.cache
+/Users/zachnelson/Documents/2025 Winter/CSE212/obj/Debug/net8.0/ref/CSE212.dll
