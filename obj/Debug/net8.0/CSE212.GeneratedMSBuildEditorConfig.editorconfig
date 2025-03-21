@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CSE212
-build_property.ProjectDir = /Users/zachnelson/Documents/2025 Winter/CSE212/
+build_property.ProjectDir = C:\Users\zachn\Documents\GitHub Repositories\CSE212\CSE212\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

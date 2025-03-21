@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/zachnelson/.nuget/packages/": {}
+    "C:\\Users\\zachn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zachnelson/Documents/2025 Winter/CSE212/CSE212.csproj",
+      "projectUniqueName": "C:\\Users\\zachn\\Documents\\GitHub Repositories\\CSE212\\CSE212\\CSE212.csproj",
       "projectName": "CSE212",
-      "projectPath": "/Users/zachnelson/Documents/2025 Winter/CSE212/CSE212.csproj",
-      "packagesPath": "/Users/zachnelson/.nuget/packages/",
-      "outputPath": "/Users/zachnelson/Documents/2025 Winter/CSE212/obj/",
+      "projectPath": "C:\\Users\\zachn\\Documents\\GitHub Repositories\\CSE212\\CSE212\\CSE212.csproj",
+      "packagesPath": "C:\\Users\\zachn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zachn\\Documents\\GitHub Repositories\\CSE212\\CSE212\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/zachnelson/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\zachn\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
