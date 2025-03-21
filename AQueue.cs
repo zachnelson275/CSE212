@@ -1,14 +1,16 @@
+using System;
+using System.Collections.Generic;
+using Microsoft.VisualBasic;
 public class AQueue<T> {
     private T[] _queue;
     private int _size;
     private int _capacity;
     private int _front;
     private int _rear;
-    public AQueue() {
-        var QUEUESIZE = 15;
-        T[] _queue = new T[QUEUESIZE];
+    public AQueue(int queueSize) {
+        _queue = new T[queueSize];
         _size = 0;
-        _capacity = QUEUESIZE;
+        _capacity = queueSize;
         _front = 0;
         _rear = 0;
     }
@@ -48,7 +50,7 @@ public class AQueue<T> {
             return _queue[_front];
         }
     }
-    public bool Containts(T n) {
+    public bool Contains(T n) {
         // Check if queue is empty
         if (_front == _rear) {
             throw new InvalidOperationException("Queue is empty");
@@ -64,6 +66,12 @@ public class AQueue<T> {
             // If target is not in the queue, return false
             return false;
         }
+    }
+    public void Display() {
+        for (int i = 0; i < _size; i++) {
+            Console.Write(_queue[(_front + i) % _capacity] + " ");
+        }
+        Console.WriteLine();
     }
     public int GetSize() {
         return _size;
