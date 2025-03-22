@@ -62,7 +62,7 @@ public class AQueueTests
 
         // Performance Tests
         AQueue<int> stopwatchAQueue = new AQueue<int>(50_000_001);
-        const int iterations = 1_000_000;
+        const int iterations = 1_000;
         const int iterationSize = 50;
 
         // Enqueue Performance
@@ -91,6 +91,7 @@ public class AQueueTests
 
         TimeSpan containsAvg = totalContainsTime / (iterations + 1);
         Console.WriteLine($"Average Contains Time per 50: {containsAvg.TotalNanoseconds} nanoseconds");
+        Console.WriteLine($"Average Contains Timer per 50: {containsAvg.TotalSeconds} seconds");
 
         // Peek Performance
         TimeSpan totalPeekTime = TimeSpan.Zero;
@@ -125,3 +126,9 @@ public class AQueueTests
         Console.WriteLine($"Average Dequeue Time per 50: {dequeueAvg.TotalNanoseconds} nanoseconds");
     }
 }
+
+/* 
+Analysis
+
+I expected Enqueue to be very quick, along with Dequeue and Peek. When I ran these tests with 50,000,000 total iterations, the average time for each of these stayed almost exactly the same. Contains on the other hand, I expected to take a while, being O(n). When I ran Contains with the 50,000,000 total iterations, it took so long to complete that my computer fell asleep. I decided to change the total iteration count to 50,000 which drastically cut down the time to complete the Contains tests. Still, the total time to complete all the Contains tests takes long enough to make me wonder if I left an infinite loop somewhere in the code. 
+*/
