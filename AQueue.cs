@@ -58,7 +58,7 @@ public class AQueue<T> {
         // Otherwise, iterate through every item in the queue starting with _front. If that item matches our target, return true
         else {
             for (int i = 0; i < _size; i++) {
-                int currentIndex = (_front + 1) % _capacity;
+                int currentIndex = (_front + i) % _capacity;
                 if (_queue[currentIndex].Equals(n)) {
                     return true;
                 }
