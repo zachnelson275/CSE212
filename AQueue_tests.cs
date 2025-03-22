@@ -131,10 +131,11 @@ public class AQueueTests
 Analysis
 
 I expected Enqueue to be very quick, along with Dequeue and Peek. When I ran these tests with 
-50,000,000 total iterations, the average time for each of these stayed almost exactly the same.
- Contains on the other hand, I expected to take a while, being O(n). When I ran Contains with 
- the 50,000,000 total iterations, it took so long to complete that my computer fell asleep. I 
- decided to change the total iteration count to 50,000 which drastically cut down the time to 
- complete the Contains tests. Still, the total time to complete all the Contains tests takes 
- long enough to make me wonder if I left an infinite loop somewhere in the code. 
+50,000,000 total iterations, the average time for each of these stayed almost exactly the same 
+as the current 50,000 total iterations. Contains on the other hand, I expected to take a while, 
+being O(n). When I ran Contains with the 50,000,000 total iterations, it took so long to 
+complete that my computer fell asleep. I decided to change the total iteration count to 50,000
+which drastically cut down the time to complete the Contains tests. Still, the total time to 
+complete all the Contains tests takes long enough to make me wonder if I left an infinite loop 
+somewhere in the code. 
 */
