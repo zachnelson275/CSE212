@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zachn\\Documents\\GitHub Repositories\\CSE212\\CSE212\\CSE212.csproj",
+      "projectUniqueName": "C:\\Users\\zachn\\OneDrive\\Documents\\Github Repositories\\CSE212\\CSE212.csproj",
       "projectName": "CSE212",
-      "projectPath": "C:\\Users\\zachn\\Documents\\GitHub Repositories\\CSE212\\CSE212\\CSE212.csproj",
+      "projectPath": "C:\\Users\\zachn\\OneDrive\\Documents\\Github Repositories\\CSE212\\CSE212.csproj",
       "packagesPath": "C:\\Users\\zachn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zachn\\Documents\\GitHub Repositories\\CSE212\\CSE212\\obj\\",
+      "outputPath": "C:\\Users\\zachn\\OneDrive\\Documents\\Github Repositories\\CSE212\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zachn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,7 +43,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -59,12 +60,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.14, 8.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
